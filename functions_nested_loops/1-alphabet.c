@@ -4,7 +4,7 @@
  *
  * Return: Always (Success)
  */
-int main(void)
+void print_alphabet(void);
 {
 	char c;
 
