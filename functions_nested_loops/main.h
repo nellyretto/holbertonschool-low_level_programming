@@ -1,12 +1,11 @@
 #include "main.h"
-
 /**
- * main - check the code
+ * main - Printing _putchars that returns an entire zero
  *
- * Return: Always 0.
+ * Return: Always (Success)
  */
-int main(void)
+int main (void)
 {
-    print_putchar(main.h);
-    return (0);
+  puts("_putchar");
+  return 0;
 }
