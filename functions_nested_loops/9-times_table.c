@@ -2,7 +2,7 @@
 
 /**
  *
- * times_table - starting with 0 9 times table
+ * times_table - starting with zero nine times table
  *
  */
 void times_table(void)
