@@ -2,7 +2,7 @@
 
 /**
  *
- * times_table - 9 times table being printed, starting from 0
+ * times_table - printing  nine times table, starting with zero
  *
  * */
 void times_table(void)
