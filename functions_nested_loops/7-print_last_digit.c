@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * print_last_digit - shows the last part of a number
+ * print_last_digit - numbers last part
+ *
+ *@n: int that work with
  *
  * Return: digit las value
  *
