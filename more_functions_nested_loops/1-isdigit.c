@@ -5,8 +5,7 @@
  * @c: checking this variable
  * Return: return 1 if c is a digit
  */
-
-int isdigit(int c)
+int _isdigit(int c)
 {
 	return (c >= 0 && c <= 9);
 }
