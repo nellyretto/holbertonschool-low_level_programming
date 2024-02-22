@@ -8,7 +8,7 @@ void print_alphabet_10x(void)
 	char c;
 	int b = 0;
 
-	while (b <= 9)
+	while (b++ <= 9)
 	{
 		for (c = 'a'; c <= 'z'; c++)
 		{
@@ -16,7 +16,6 @@ void print_alphabet_10x(void)
 		}
 		_putchar('\n');
 
-		b++;
 	}
 
 }
