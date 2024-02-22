@@ -4,7 +4,7 @@
  *
  * times_table - starting with 0 9 times table
  *
-  */
+ */
 void times_table(void)
 {
 	int i, j, k;
