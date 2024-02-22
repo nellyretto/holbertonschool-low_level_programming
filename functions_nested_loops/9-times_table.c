@@ -2,9 +2,9 @@
 
 /**
  *
- * times_table - starting with zero nine times table
+ * times_table - 9 times table being printed, starting from 0
  *
- */
+ * */
 void times_table(void)
 {
 	int i, j, k;
