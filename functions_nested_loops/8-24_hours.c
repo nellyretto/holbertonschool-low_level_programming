@@ -3,7 +3,7 @@
 /**
  * jack_bauer - minutes of the day from Jack
  * from minute 00:00 to minute 23:59
- * */
+ */
 void jack_bauer(void)
 {
 	int i, j;
