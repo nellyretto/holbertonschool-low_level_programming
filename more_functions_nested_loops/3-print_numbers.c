@@ -1,22 +1,19 @@
-#include "main.h"
-/**
- *
- *@c: variable being worked on
- *
- * print_numbers - new line on the digits
- *
- * Return: always zero (success)
- *
- */
+#include "holberton.h"
 
+/**
+  * print_numbers - printing from 0 to 9 with a new line
+  *
+  * Return: from 0 to 9
+  */
 void print_numbers(void)
 {
-	char c = '0';
+	int x;
 
-	while (c <= '9')
+	for (x = 0; x <= 9; x++)
 	{
-		_putchar(c);
-		c++;
+		_putchar(x + '0');
 	}
-_putchar('\n');
+
+	_putchar('\n');
 }
+
