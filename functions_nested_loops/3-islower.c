@@ -4,7 +4,7 @@
  * _islower - checking
  *
  *@c: checking this character
- * Return: lolo
+ * Return: return 1 if c is lowercase
  */
 int _islower(int c)
 {
