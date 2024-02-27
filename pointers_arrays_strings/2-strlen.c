@@ -1,16 +1,13 @@
 #include "main.h"
 
 /**
+ * _strlen - returning length of string 
+ * @s: string to be counted
  *
- * _strlen - returning the length of a string
- *
- * Return: Always 0 (Success)
- *
+ * Return: the length of the string
  */
-
 int _strlen(char *s)
-
-	{
+{
 	int i;
 
 	i = 0;
@@ -21,5 +18,4 @@ int _strlen(char *s)
 	}
 
 	return (i);
-}
-
+}#in
