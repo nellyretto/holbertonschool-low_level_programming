@@ -3,11 +3,12 @@
 /**
  * _strncat - concatenating using n bytes
  * @dest: string
- * @src: not needed to be null if it contains n 
+ * @src: not needed to be null if it contains n
  * @n: number of bytes of str to concatenate
  *
  * Return: a pointer to the resulting string dest
  */
+
 char *_strncat(char *dest, char *src, int n)
 {
 	int i, j;
