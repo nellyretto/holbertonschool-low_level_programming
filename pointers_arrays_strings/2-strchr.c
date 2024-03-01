@@ -1,14 +1,16 @@
 #include <stdlib.h>
-# include "main.h"
-
+#include "main.h"
 /**
  * _strchr - locating character in a string
- * Return: returning pointer in the s string 
  *
+ * @s:  string to check
+ * @c: ocurrence to look
+ *
+ * Return: returning a pointer
+ * @s. returning null
  */
 
-char *_strchr(char *s, char c);
-
+char *_strchr(char *s, char c)
 {
 	while (*s)
 	{
@@ -22,5 +24,3 @@ char *_strchr(char *s, char c);
 
 	return (NULL);
 }
-
-
