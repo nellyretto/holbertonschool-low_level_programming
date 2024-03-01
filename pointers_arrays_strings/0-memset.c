@@ -2,8 +2,8 @@
 
 /**
  * _memset - filling memory with a constant byte
- * 
- * 
+ * b is the constant byte
+ *  returning memory to s
  */
 
 char *_memset(char *s, char b, unsigned int n)
