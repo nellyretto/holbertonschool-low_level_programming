@@ -1,15 +1,15 @@
-# include 
-
+#include "holberton.h"
 /**
- * _strspn - getting the lenght of a prefix substring
- * @s: returning the bytes here
- * @accept: only bytes that there are
- * Return: returning the number of bytes
+ * _strspn - gets the length of a prefix substring
  *
+ * @s: returning bytes from here
+ * @accept: only bytes that there are
+ *
+ * Return: returning number of bytes
+ * 
  */
 
-_strspn
-
+unsigned int _strspn(char *s, char *accept)
 {
 	int i, j;
 	int c = 0;
