@@ -3,7 +3,10 @@
 /**
  * _memset - filling memory with a constant byte
  * b is the constant byte
- *  returning memory to s
+ * @src: copying from this memory
+ * @dest: returning pointer here
+ * @n: numbers of bytes being copied
+ *  Return: returning pointer to dest
  */
 
 char *_memset(char *s, char b, unsigned int n)
