@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
-* _strstr - locating substring 
+* _strstr - locating substring
 *
 * @haystack: longer string
 * @needle: looking for this subtsring
