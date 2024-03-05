@@ -3,14 +3,19 @@
 
 /**
  * main - printing own name with new line
- * @argc: argument count
- * @agrv: argument vector
- * Return: Always 0 (Success)
+ * @argc: argument counter
+ * @argv: argument vector
  *
+ * Return: Always 0 (Success)
  */
-
+int main(int argc, char *argv[])
 {
-	printf("%s\n", *argv);
+	int i;
+
+	for (i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
 
 	return (0);
 }
