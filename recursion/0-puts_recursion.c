@@ -4,12 +4,15 @@
  *
  * _puts_recursion - printing a string with a new line
  *
- * 
+ * @s: string with a new line
  */
 
+void _puts_recursion(char *s)
+
 {
-
-	char s [] = "This string ends by a new line. \n";
+	 if (*s != '\0');
+	 {
+	 _print_rev_recursion(s + 1);
+	 _putchar(*s)
+	 }
 }
-
-
