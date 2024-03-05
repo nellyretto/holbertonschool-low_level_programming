@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * whatsmyname - printing own name with new line
+ * main - printing own name with new line
  * @argc: argument count
  * @agrv: argument vector
  * Return: Always 0 (Success)
