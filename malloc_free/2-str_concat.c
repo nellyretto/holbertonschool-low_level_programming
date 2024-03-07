@@ -1,3 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * str_concat - concatenating two string
+ * Return: pointing to new alocated space memory
+ *
+ *
+ */
+
+char *str_concat(char *s1, char *s2)
+
 {
 	char *a;
 	int i, j, c, d;
