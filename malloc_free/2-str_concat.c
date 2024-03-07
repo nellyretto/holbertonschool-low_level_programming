@@ -4,8 +4,8 @@
 /**
  * str_concat - concatenating two string
  * Return: pointing to new alocated space memory
- *
- *
+ * @s1: first string
+ * @s2: second string
  */
 
 char *str_concat(char *s1, char *s2)
