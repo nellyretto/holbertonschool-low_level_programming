@@ -6,7 +6,7 @@
  * memory with a copy of string as a parameter
  * Return: NULL if string if equal to NULL
  * pointer to duplicated string if succesfull
- *
+ * @str: duplicating this string
  */
 
 char *_strdup(char *str)
