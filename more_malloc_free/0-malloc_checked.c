@@ -16,6 +16,8 @@ void *malloc_checked(unsigned int b)
 	ptr = (int *)malloc(10 * sizeof(int b));
 
 	_putchar("Allocating new memory.\n");
+
+	return 0;
 }
 
 
