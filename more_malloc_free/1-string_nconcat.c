@@ -2,11 +2,13 @@
 #include <string.h>
 
 /**
- * *string_nconcat - concatenating two strings
+ * string_nconcat - concatenating two strings
+ *
+ *
  * @s1: first string
  * @s2: second string
  * @n: number of bytes
- *
+ * Return: NULL if the function fails
  *
  */
 
