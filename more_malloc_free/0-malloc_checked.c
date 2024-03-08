@@ -1,10 +1,12 @@
+# include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
  * malloc_checked - allocating memory
+ * @b: entire variable
  * Return: pointer to allocated memory
- * @b: int variable
+ *
  *
  */
 
