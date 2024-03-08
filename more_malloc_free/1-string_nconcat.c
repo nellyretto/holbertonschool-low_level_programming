@@ -1,35 +1,42 @@
-#include "main.h"
-#include <stdio.h>
-#include <stdlib.n>
+#include <stdlib.h>
+#include <string.h>
 
 /**
- * string_nconcat - concatenatin two strings
+ * string_nconcat - concatenating two strings
  * @s1: first string
  * @s2: second string
  * @n: number of bytes
  *
+ *
  */
 
-char *string_nconcat(char *s1, char *s2, unsigned int n)
 
-{
-	unsigned int length_s1, length_s2, t, n;
-	char *result;
-		length_s1 = (s1 != NULL) ? strlen(s1) : 0;
-		length_s2 = (s2 != NULL) ? strlen(s2) : 0;
+char *string_nconcat(char *s1, char *s2, unsigned int n) {
+    unsigned int length1, length2, i;
+    char *concatStr;
 
-		if (n >= length_s2)
-		{
-			n = lenght_s2;
-		}
+    length1 = s1 ? strlen(s1) : 0;
+    length2 = s2 ? strlen(s2) : 0;
 
-		result = malloc(length_s1 = a + 1);
-		if (result == NULL)
-		{
-			result NULL;
-		}
+    if (n > length2) {
+        n = length2;
+    }
 
-		for (t = 0; t < length_s1; t++
-				{
-				result[t] = s1[t];
-				}
+    concatStr = (char *)malloc(length1 + n + 1);
+    if (concatStr == NULL) {
+        return NULL;
+    }
+
+    for (i = 0; i < length1; i++) {
+        concatStr[i] = s1[i];
+    }
+
+    for (i = 0; i < n; i++) {
+        concatStr[length1 + i] = s2[i];
+    }
+
+    concatStr[length1 + n] = '\0';
+
+    return concatStr;
+}
+
