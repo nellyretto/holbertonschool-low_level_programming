@@ -2,36 +2,14 @@
 #include "main.h"
 
 /**
- * string_nconcat - concatenating two strings
- * @n: number of bytes
- * @s: area of memory to be filled
- * @b: copying this chart
- *
- * Return: pointer to the area of memory
- *
- *
- */
-
-char *string_nconcat(char *s1, char *s2, unsigned int n)
-
-{
-	unsigned int i;
-
-	for (i = 0; i < n; i++)
-	{
-		s[i] = b;
-	}
-
-	return (s);
-}
-
-/**
- * *_calloc - allocates memory for an array
- * @nmemb: number of elements in the array
- * @size: size of each element
+ * *_calloc - allocating memory for an array usign malloc
+ * @nmemb: arrays in the elements
+ * @size: elements size
  *
  * Return: pointer to allocated memory
  */
+
+
 void *_calloc(unsigned int nmemb, unsigned int size)
 
 {
