@@ -13,13 +13,12 @@
 void *malloc_checked(unsigned int b)
 
 {
-	int* p = (int *)malloc(10 * sizeof(int b));
+	void *ptr;
 
-	_putchar("Allocating new memory.\n");
+	ptr = malloc(b);
 
-	free (p);
+	if (ptr == NULL)
+		exit(98);
 
-	return 0;
+	return (ptr);
 }
-
-
