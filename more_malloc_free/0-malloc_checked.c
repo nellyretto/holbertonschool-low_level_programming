@@ -3,8 +3,10 @@
 #include <stdlib.h>
 
 /**
- * malloc_checked - allocating memory
+ * malloc_checked - allocating memory with malloc
+ *
  * @b: entire variable
+ *
  * Return: pointer to allocated memory
  *
  *
