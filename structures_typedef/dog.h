@@ -16,7 +16,7 @@ char *owner;
 };
 
 /**
- * dog_t - dog structure typedef
+ * dog_t - Typedef for structure dog
  *
  */
 
