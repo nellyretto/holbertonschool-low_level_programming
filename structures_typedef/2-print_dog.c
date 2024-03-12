@@ -1,21 +1,23 @@
+#include <stdlib.h>
 #include <stdio.h>
 #include "dog.h"
 
 /**
  * print_dog - printing a structured dog
- *
- * Return: Always Success 0
+ * @d: to print the structured dog
  *
  */
 
 void print_dog(struct dog *d)
 
 {
-	 struct dog my_dog;
+	if (d == NULL)
+		return;
 
-	 my_dog.name = "Fifi";
-	 my_dog.age = 2.5;
-	 my_dog.owner = "Nelly";
-	 print_dog(&my_dog);
-	 return (0);
+	if (d->name == NULL)
+			d->name = "(nil)";
+	if(d->owner == NULL)
+		d->owner = "(nil)";
+	printf("Name: %c\nAge: %f\Owner: %c\n", d->name, d->age, d->owner);
 }
+
