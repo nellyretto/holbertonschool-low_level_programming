@@ -3,6 +3,7 @@
 
 /**
  * init_dog - initializating variable of struct dog
+ * @d: pointer to initialize
  * @name: name of the dog
  * @age: age of the dog
  * @owner: owner of the dog
