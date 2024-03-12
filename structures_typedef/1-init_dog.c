@@ -3,15 +3,16 @@
 
 /**
  * init_dog - initializating variable of struct dog
- *
+ *b
  *
  *
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 
-struct Dog
+if (d != NULL)
 {
-int age;
-int height;
+d->name = name;
+d->age = age;
+d->owner = owner;
 }
