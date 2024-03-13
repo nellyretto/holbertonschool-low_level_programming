@@ -6,6 +6,7 @@
  * array_iterator - executing a function with elements of arrays
  * @size: size of the array
  * @action: pointer to the function
+ * @array: array to be passed as function
  *
  */
 
