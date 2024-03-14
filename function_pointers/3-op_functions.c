@@ -8,7 +8,7 @@
  * @b: variable that acts as member of the equation
  * Return: returns the sum of a and b
  */
-int op_add(int a , int b)
+int op_add(int a, int b)
 {
 	return (a + b);
 }
