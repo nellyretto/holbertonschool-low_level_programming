@@ -3,16 +3,17 @@
 #include "variadic_functions.h"
 
 /**
- * sum_them_all - returning all parameters
+ * sum_them_all - returning sum of all parameters
  * @n: parameters
- * Return; if n == 0, return 0
+ * Return: if n == 0, return 0
+ * @...: variable that are the numbers of parameters
  *
  */
 
-int sum_them_all(const unsigned int n, ...);
+int sum_them_all(const unsigned int n, ...)
 
 {
-	va_list ap;
+va_list ap;
 	unsigned int i, sum = 0;
 
 	va_start(ap, n);
