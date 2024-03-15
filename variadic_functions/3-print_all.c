@@ -1,58 +1,43 @@
 #include <stdio.h>
 #include <stdarg.h>
-#include “variadic_functions.h”
+#include "variadic_functions.h"
 
-/**
- * print_all - printing anything
- * 
- *
- *
- *
- */
+void print_all(const char * const format, ...) {
+    va_list args;
+    int i = 0, j;
+    char *s, c;
+    double f;
 
-void print_all(const char * const format, ...)
-
-{
-va_list args;
-va_start(args, format);
-const char* p = format;
-char c;
-int i;
-float f;
-char* s;
-
-    while (*p) {
-        switch (*p++) {
+    va_start(args, format);
+    while (format && format[i]) {
+        j = 0;
+        switch (format[i++]) {
             case 'c':
-                c = (char) va_arg(args, int); 
+                c = (char) va_arg(args, int);
                 printf("%c", c);
+                j = 1;
                 break;
             case 'i':
-                i = va_arg(args, int);
-                printf("%d", i);
+                printf("%d", va_arg(args, int));
+                j = 1;
                 break;
             case 'f':
-                f = (float) va_arg(args, double); 
+                f = va_arg(args, double);
                 printf("%f", f);
+                j = 1;
                 break;
             case 's':
-                s = va_arg(args, char*);
-                if (s)
-                    printf("%s", s);
-                else
-                    printf("(nil)");
+                s = va_arg(args, char *);
+                if (!s)
+                    s = "(nil)";
+                printf("%s", s);
+                j = 1;
                 break;
         }
-        if (*p) printf(", ");
+        if (format[i] && j)
+            printf(", ");
     }
     va_end(args);
     printf("\n");
-}
-
-int main() {
-    print_all("cifs", 'H', 42, 3.14, "Hello");
-    print_all("cis", 'A', "World", 100);
-    print_all("sf", "Pi is approximately", 3.14159);
-    return 0;
 }
 
