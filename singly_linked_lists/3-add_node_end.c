@@ -4,7 +4,7 @@
 
 
 /**
- * add_note_end - adding a new node to the end of a list
+ * add_node_end - adding a new node to the end of a list
  * @head: head of the node
  * @str: string to be manipulated
  *

@@ -5,7 +5,6 @@
 /**
  * free_list - freeing a linked list
  * @head: funcitons as a pointer
- * @str: string to be manipulated
  *
  * Return: returning new node
  */
