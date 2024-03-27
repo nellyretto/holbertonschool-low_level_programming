@@ -1,6 +1,16 @@
 #ifndef LISTS_H
 #define LISTS_H
 
+/**
+ * struct list_s - singly linked lists
+ * @next: pointing to the newt nodes
+ * @len: lenght
+ * @str: string to be mannipulated
+ *
+ */
+
+
+
 typedef struct list_s
 {
 char *str;
