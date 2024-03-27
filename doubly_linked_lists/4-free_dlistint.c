@@ -3,6 +3,7 @@
 
 /**
  * free_dlistint - Freeing a linked list
+ * @head: head of nodes
  * Return: returning new nodes
  *
  */
