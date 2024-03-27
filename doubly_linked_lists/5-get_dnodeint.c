@@ -4,7 +4,7 @@
 /**
  * get_dnodeint_at_index - returning nth node to a linked list
  * @head: head of nodes
- *
+ * @index: position of the node
  * Return: if nodes does not exist return NULL
  */
 
